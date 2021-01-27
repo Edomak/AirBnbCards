@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.background-los-angeles{
+  background-image: url(Los-Angeles.jpeg);
+  background-size: cover;
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 100vh;
+  position: relative;
+}
+
+#los-angeles{
+  border: 3px solid lightyellow;
+  border-radius: 5px;
+  font-size: 80px;
+  color: lightyellow;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background-lisbona{
+  background-image: url(lisbona.jpg);
+  background-size: cover;
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 100vh;
+  position: relative;
+}
+
+#lisbona{
+  border: 3px solid lightyellow;
+  border-radius: 5px;
+  font-size: 80px;
+  color: lightyellow;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background-bologna{
+  background-image: url(bologna.jpg);
+  background-size: cover;
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 100vh;
+  position: relative;
+}
+
+#bologna{
+  border: 3px solid lightyellow;
+  border-radius: 5px;
+  font-size: 80px;
+  color: lightyellow;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.layover{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.2);
+}
